@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Pretups</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+    name="viewport" />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="assets/css/all.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css" />
+  <link href="assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/css/nice-select.css" rel="stylesheet" />
+    <!-- Added these scripts -->  
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(function () {
+      $("#sidebar").load("sidebar.html");
+    });
+  </script>
+  <!-- Added these scripts -->
+</head>
+
+<body class="">
+  <div class="wrapper">
+    <!-- Added this div -->
+    <div id="sidebar">
+    </div>
+    <!-- Added this div -->
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item btn-rotate dropdown">
+                <a href="#help" class="nav-link help">Help</a>
+              </li>
+              <li class="nav-item btn-rotate dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Network Admin
+                  <div class="mx-3 user-logo">N</div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="row comission">
+          <div class="col-lg-6 col-md-12 col-sm-12 order-2 order-lg-1 order-md-2">
+            <div class="d-flex mb-lg-0 mb-2">
+              <a class="text-dark" href="comission-profile.html">Comission Profile</a>
+              <span class="mx-2"><i class="text-secondary fas fa-chevron-right"></i></span>
+              <h4>Modify</h4>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 order-1 ordedr-lg-2 order-md-1 pr-0 content-top-nav">
+            <ul class="top-nav-ul text-right mr-0">
+              <li class="t-line">Network: <span>Bangalore</span></li>
+              <li>23/08/2022, 12:03:00 AM</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card p-4">
+          <div class="row">
+            <div class="col-12">
+              <div class="text-right mb-3">
+                <p class="text-success mb-0"><i class="fas fa-circle mr-2"></i> Active</p>
+              <div class="">
+                <a href=""><i class="fal fa-cog mr-2"></i></a>
+                <a href=""><i class="fal fa-trash-alt mr-2"></i></a>
+                <a href=""><i class="fal fa-ban "></i></a>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <div class="">
+                <p class="text-uppercase mb-1 light-text small">Domain</p>
+                <p class="mb-0">All</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <div class="">
+                <p class="text-uppercase mb-1 light-text small">Category</p>
+                <p class="mb-0">All</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <div class="">
+                <p class="text-uppercase mb-1 light-text small">Grography</p>
+                <p class="mb-0">All</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <div class="">
+                <p class="text-uppercase mb-1 light-text small">Grade</p>
+                <p class="mb-0">All</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <div class="">
+                <p class="text-uppercase mb-1 light-text small">Version</p>
+                <p class="mb-0">1</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <div class="">
+                <p class="text-uppercase mb-1 light-text small">Default Profile</p>
+                <p class="mb-0">No</p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="form-group">
+                <label for="">Profile Name</label>  
+                <input type="text" class="form-control" value="ComPro1" name="" id="">              
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="form-group">
+                <label for="">Short Code</label>  
+                <input type="text" class="form-control" value="Neo" name="" id="">              
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="form-group">
+                <label for="">Comission Type</label>
+                <select class="nice-select w-100">
+                  <option selected>Normal</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>           
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="form-group">
+                <label for="">Applicable Form</label>  
+                <input type="date" class="form-control" value="" name="" id="">              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <div class="list-group bg-white border-radius" style="flex-direction: initial;" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action transfer-control-preference-filter-link pt-4 active" style="border-bottom-left-radius: 0.25rem; border-top-right-radius: 0px;" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Base Comission</a>
+                  <a class="list-group-item list-group-item-action transfer-control-preference-filter-link pt-4" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Cumulative Base Comission</a>
+                  <a class="list-group-item list-group-item-action transfer-control-preference-filter-link" style="border-bottom-left-radius: 0rem; border-top-right-radius: 0.25rem;" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Additional Commission & <br> Cumulative Additional Comission</a>
+                  <a class="list-group-item list-group-item-action transfer-control-preference-filter-link pt-4" style="border-bottom-left-radius: 0rem; border-top-right-radius: 0.25rem;" id="list-other-list" data-toggle="list" href="#list-other" role="tab" aria-controls="other">Other Comission</a>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header p-0" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#default" aria-expanded="true" aria-controls="default">
+                              <p class="mb-0">Default</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                    
+                        <div id="default" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body p-4">
+                            <div class="bg-light-green p-3 mb-3">
+                              <div class="row mb-4">
+                                <div class="col-lg-10 col-md-12 col-sm-12 order-lg-first order-md-last order-sm-last">
+                                  <div class="">
+                                    <p class="mb-0"><i class="fas fa-check-circle mr-2 text-success"></i>Base Communication defined for - Wallets: <b>Prepaid eTopUp; Payment methods: Default, Cash</b></p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-12 col-sm-12 order-lg-last order-md-first order-sm-first">
+                                  <div class="text-right">
+                                    <a class="mr-2 light-text" href="">
+                                      <i class="fal fa-trash-alt"></i>
+                                    </a>
+                                    <a class="light-text" href="">
+                                      <i class="fal fa-angle-down"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <p class="mb-3">Selected Wallet(s)</p>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="selected-yellow-btn mb-3">
+                                    <p class="mb-0"><i class="fal fa-check mr-2"></i> Prepaid eTopUp</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp 2</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp 3</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <p class="mb-3">Selected Payment Method(s)</p>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">Select All</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="selected-yellow-btn mb-3">
+                                    <p class="mb-0"><i class="fal fa-check mr-2"></i> Default</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="selected-yellow-btn mb-3">
+                                    <p class="mb-0"><i class="fal fa-check mr-2"></i> Cash</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">DD</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">Online</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">Check</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">Others</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="form-group">
+                                    <label for="">Multiple of</label>
+                                    <input type="text" class="form-control bg-light-green" value="1" name="" id="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                  <label for="">Transfer Range</label>
+                                  <div class="row">
+                                    <div class="col-6 pr-0">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control bg-light-green" value="1" name="" id="">
+                                      </div>
+                                    </div>
+                                    <div class="col-6 pl-0">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control bg-light-green" value="10000" name="" id="">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input ml-2" type="checkbox" id="inlineCheckbox1" value="option1" checked>
+                                    <label class="form-check-label mt-1" for="inlineCheckbox1">Tax Calculation on fee of cost(FOC)</label>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input ml-2" type="checkbox" id="inlineCheckbox2" value="option1" checked>
+                                    <label class="form-check-label mt-1" for="inlineCheckbox2">Tax Calculated on Channel to Channel Transfer</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card p-4">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="text-right">
+                                      <a class="light-text mr-2" href="">
+                                        <i class="fal fa-copy"></i>
+                                      </a>
+                                      <a class="light-text" href="">
+                                        <i class="fal fa-trash-alt"></i>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <label for="">Transaction Amount Range</label>
+                                    <div class="row">
+                                      <div class="col-6 pr-0">
+                                        <div class="form-group">
+                                          <input type="text" class="form-control" value="1" name="" id="">
+                                        </div>
+                                      </div>
+                                      <div class="col-6 pl-0">
+                                        <div class="form-group">
+                                          <input type="text" class="form-control" value="10000" name="" id="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Comission Rate</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 1</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 2</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 3</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="text-right">
+                                      <a class="btn btn-reset mr-2" href="">
+                                        Reset
+                                      </a>
+                                      <a class="btn btn-reset" href="">
+                                        Reset
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card p-4">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="text-right">
+                                      <a class="light-text mr-2" href="">
+                                        <i class="fal fa-copy"></i>
+                                      </a>
+                                      <a class="light-text" href="">
+                                        <i class="fal fa-trash-alt"></i>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <label for="">Transaction Amount Range</label>
+                                    <div class="row">
+                                      <div class="col-6 pr-0">
+                                        <div class="form-group">
+                                          <input type="text" class="form-control" value="1" name="" id="">
+                                        </div>
+                                      </div>
+                                      <div class="col-6 pl-0">
+                                        <div class="form-group">
+                                          <input type="text" class="form-control" value="10000" name="" id="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Comission Rate</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 1</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 2</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 3</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="text-right">
+                                      <a class="btn btn-reset mr-2" href="">
+                                        Reset
+                                      </a>
+                                      <a class="btn btn-reset" href="">
+                                        Reset
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="">
+                              <div class="row">
+                                <div class="col-12">
+                                  <p class="mb-3">Selected Wallet(s)</p>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Prepaid eTopUp</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp 2</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp 3</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <p class="mb-3">Selected Payment Method(s)</p>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Select All</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Default</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Cash</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">DD</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Online</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Check</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Others</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="form-group">
+                                    <label for="">Multiple of</label>
+                                    <input type="text" class="form-control " value="1" name="" id="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                  <label for="">Transfer Range</label>
+                                  <div class="row">
+                                    <div class="col-6 pr-0">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control " value="1" name="" id="">
+                                      </div>
+                                    </div>
+                                    <div class="col-6 pl-0">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control " value="10000" name="" id="">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input ml-2" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label mt-1" for="inlineCheckbox1">Tax Calculation on fee of cost(FOC)</label>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input ml-2" type="checkbox" id="inlineCheckbox2" value="option1">
+                                    <label class="form-check-label mt-1" for="inlineCheckbox2">Tax Calculated on Channel to Channel Transfer</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="border border-light border-radius p-3">
+                                <div class="card bg-light  p-4">
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <div class="text-right">
+                                        <a class="light-text mr-2" href="">
+                                          <i class="fal fa-copy"></i>
+                                        </a>
+                                        <a class="light-text" href="">
+                                          <i class="fal fa-trash-alt"></i>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <label for="">Transaction Amount Range</label>
+                                      <div class="row">
+                                        <div class="col-6 pr-0">
+                                          <div class="form-group">
+                                            <input type="text" class="form-control" value="1" name="" id="">
+                                          </div>
+                                        </div>
+                                        <div class="col-6 pl-0">
+                                          <div class="form-group">
+                                            <input type="text" class="form-control" value="10000" name="" id="">
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-12">
+                                      <label for="">Comission Rate</label>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button type="button" class="my-input-grp-txt">$</button>
+                                          <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            <i class="fal fa-angle-down"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Eurro</a>
+                                            <a class="dropdown-item" href="#">UAE</a>
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-12">
+                                      <label for="">Tax 1</label>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button type="button" class="my-input-grp-txt">$</button>
+                                          <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            <i class="fal fa-angle-down"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Eurro</a>
+                                            <a class="dropdown-item" href="#">UAE</a>
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-12">
+                                      <label for="">Tax 2</label>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button type="button" class="my-input-grp-txt">$</button>
+                                          <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            <i class="fal fa-angle-down"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Eurro</a>
+                                            <a class="dropdown-item" href="#">UAE</a>
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-12">
+                                      <label for="">Tax 3</label>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button type="button" class="my-input-grp-txt">$</button>
+                                          <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            <i class="fal fa-angle-down"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Eurro</a>
+                                            <a class="dropdown-item" href="#">UAE</a>
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <div class="text-right">
+                                        <a class="btn btn-reset bg-white" href="">
+                                          Reset
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12">
+                                    <a class="text-red font-weight-bold" href="">
+                                      <i class="fal fa-plus-circle fa-lg"></i> Add Range
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <div class="text-right">
+                                    <a class="btn btn-reset mr-2" href="">
+                                      Copy
+                                    </a>
+                                    <a class="btn btn-reset mr-2" href="">
+                                      Reset
+                                    </a>
+                                    <a class="btn" href="">
+                                      Add
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <p class="mb-0">Operator to Channel</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium provident fugit id inventore explicabo dolor quaerat quae iusto quisquam voluptate, magnam voluptatem quidem consectetur commodi reiciendis dolore sapiente ut doloremque!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <p class="mb-0">Channel to Channel</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    
+                  </div>
+                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                    <div class="card p-4">
+                      <div class="row">
+                        <div class="col-lg-10 col-md-12 col-sm-12 order-lg-first order-md-last order-sm-last">
+                          <div class="">
+                            <p class="mb-0 text-capitalize font-weight-bold">
+                              additional comission profile status
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 col-sm-12 order-lg-last order-md-first order-sm-first">
+                          <div class="d-flex justify-content-end">
+                            <p class="mb-0 mr-2 text-success">
+                              <i class="fas fa-circle"></i> Active
+                            </p>
+                            <a class="light-text" href="">
+                              <i class="fal fa-ban"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header p-0" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#default" aria-expanded="true" aria-controls="default">
+                              <p class="mb-0">Custom Recharge</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                    
+                        <div id="default" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body p-4">
+                            <div class="bg-light-green p-3 mb-3">
+                              <div class="row mb-4">
+                                <div class="col-lg-10 col-md-12 col-sm-12 order-lg-first order-md-last order-sm-last">
+                                  <div class="">
+                                    <p class="mb-0"><i class="fas fa-check-circle mr-2 text-success"></i>Base Communication defined for - Wallets: <b>Prepaid eTopUp; Payment methods: Default, Cash</b></p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-12 col-sm-12 order-lg-last order-md-first order-sm-first">
+                                  <div class="text-right">
+                                    <a class="mr-2 light-text" href="">
+                                      <i class="fal fa-trash-alt"></i>
+                                    </a>
+                                    <a class="light-text" href="">
+                                      <i class="fal fa-angle-down"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <p class="mb-3">Selected Wallet(s)</p>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="selected-yellow-btn mb-3">
+                                    <p class="mb-0"><i class="fal fa-check mr-2"></i> Prepaid eTopUp</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp 2</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp 3</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <p class="mb-3">Selected Payment Method(s)</p>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">Select All</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="selected-yellow-btn mb-3">
+                                    <p class="mb-0"><i class="fal fa-check mr-2"></i> Default</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="selected-yellow-btn mb-3">
+                                    <p class="mb-0"><i class="fal fa-check mr-2"></i> Cash</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">DD</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">Online</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">Check</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn mb-3">
+                                    <p class="mb-0">Others</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                  <label for="">Transfer Range</label>
+                                  <div class="row">
+                                    <div class="col-6 pr-0">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control bg-light-green" value="1" name="" id="">
+                                      </div>
+                                    </div>
+                                    <div class="col-6 pl-0">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control bg-light-green" value="10000" name="" id="">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="form-group">
+                                    <label for="">Comission Period</label>
+                                    <input type="date" class="form-control bg-light-green" value="1" name="" id="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-6">
+                                  <div class="form-group">
+                                    <label for="">Time Slab</label>
+                                    <input type="datetime-local" class="form-control bg-light-green" value="1" name="" id="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                  <div class="mt-4">
+                                    <p class="mb-0">(e.g. 10:12-12:25, 14:30-16:22)</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card p-4 mt-4">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="text-right">
+                                      <a class="light-text mr-2" href="">
+                                        <i class="fal fa-copy"></i>
+                                      </a>
+                                      <a class="light-text" href="">
+                                        <i class="fal fa-trash-alt"></i>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12">
+                                    <p class="mb-3 font-weight-bold">
+                                      Sub-service - CVG Sub-service 1, Sub-service 2 ; Gateway - EXTGW
+                                    </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <label for="">Transaction Amount Range</label>
+                                    <div class="row">
+                                      <div class="col-6 pr-0">
+                                        <div class="form-group">
+                                          <input type="text" class="form-control" value="1" name="" id="">
+                                        </div>
+                                      </div>
+                                      <div class="col-6 pl-0">
+                                        <div class="form-group">
+                                          <input type="text" class="form-control" value="10000" name="" id="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Comission Rate</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 1</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 2</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <label for="">Tax 3</label>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="my-input-grp-txt">$</button>
+                                        <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span class="sr-only">Toggle Dropdown</span>
+                                          <i class="fal fa-angle-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Eurro</a>
+                                          <a class="dropdown-item" href="#">UAE</a>
+                                        </div>
+                                      </div>
+                                      <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                  </div>
+                                  <div class="col-12 mb-3 mt-4">
+                                    <a class="font-weight-bold" href="">
+                                      <u>Define cumulative additional commission(CAC)</u> <i class="fal fa-angle-down"></i>
+                                    </a>
+                                  </div>
+                                  <div class="col-lg-2 col-md-4 col-sm-6">
+                                    <div class="form-group">
+                                      <label for="">CAC Type</label><select class="nice-select w-100">
+                                        <option selected>Count</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="form-group">
+                                      <label for="">CAC period</label>
+                                      <input type="date" class="form-control " value="1" name="" id="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="form-group">
+                                      <label for="">CAC time slab</label>
+                                      <input type="time" class="form-control " value="1" name="" id="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="mt-4">
+                                      <p class="mb-0">(e.g. 10:12-12:25, 14:30-16:22)</p>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="">
+                                      <p class="mb-3 light-text small text-uppercase">CAC Details</p>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                    <div class="border border-radius p-2">
+                                      <div class="row">
+                                        <div class="col-4">
+                                          <div class="form-group mb-0">
+                                            <label for="">Target</label>
+                                            <input type="text" class="form-control" name="" id="">
+                                          </div>
+                                        </div>
+                                        <div class="col-6">
+                                          <div class="">
+                                            <label for="">Tax 1</label>
+                                              <div class="input-group mb-0">
+                                                <div class="input-group-prepend">
+                                                  <button type="button" class="my-input-grp-txt">$</button>
+                                                  <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                    <i class="fal fa-angle-down"></i>
+                                                  </button>
+                                                  <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Eurro</a>
+                                                    <a class="dropdown-item" href="#">UAE</a>
+                                                  </div>
+                                                </div>
+                                                <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-2">
+                                          <div class="text-center mt-4">
+                                            <a class="text-success" href="">
+                                              <i class="fal fa-plus-circle"></i>
+                                            </a>
+                                            <a class="text-red" href="">
+                                              <i class="fal fa-minus-circle"></i>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                    <div class="border border-radius p-2">
+                                      <div class="row">
+                                        <div class="col-4">
+                                          <div class="form-group mb-0">
+                                            <label for="">Target</label>
+                                            <input type="text" class="form-control" name="" id="">
+                                          </div>
+                                        </div>
+                                        <div class="col-6">
+                                          <div class="">
+                                            <label for="">Tax 1</label>
+                                              <div class="input-group mb-0">
+                                                <div class="input-group-prepend">
+                                                  <button type="button" class="my-input-grp-txt">$</button>
+                                                  <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                    <i class="fal fa-angle-down"></i>
+                                                  </button>
+                                                  <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Eurro</a>
+                                                    <a class="dropdown-item" href="#">UAE</a>
+                                                  </div>
+                                                </div>
+                                                <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-2">
+                                          <div class="text-center mt-4">
+                                            <a class="text-success" href="">
+                                              <i class="fal fa-plus-circle"></i>
+                                            </a>
+                                            <a class="text-red" href="">
+                                              <i class="fal fa-minus-circle"></i>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                    <div class="border border-radius p-2">
+                                      <div class="row">
+                                        <div class="col-4">
+                                          <div class="form-group mb-0">
+                                            <label for="">Target</label>
+                                            <input type="text" class="form-control" name="" id="">
+                                          </div>
+                                        </div>
+                                        <div class="col-6">
+                                          <div class="">
+                                            <label for="">Tax 1</label>
+                                              <div class="input-group mb-0">
+                                                <div class="input-group-prepend">
+                                                  <button type="button" class="my-input-grp-txt">$</button>
+                                                  <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                    <i class="fal fa-angle-down"></i>
+                                                  </button>
+                                                  <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Eurro</a>
+                                                    <a class="dropdown-item" href="#">UAE</a>
+                                                  </div>
+                                                </div>
+                                                <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-2">
+                                          <div class="text-center mt-4">
+                                            <a class="text-success" href="">
+                                              <i class="fal fa-plus-circle"></i>
+                                            </a>
+                                            <a class="text-red" href="">
+                                              <i class="fal fa-minus-circle"></i>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row mt-3">
+                                  <div class="col-12">
+                                    <div class="text-right">
+                                      <a class="btn btn-reset mr-2" href="">
+                                        Reset
+                                      </a>
+                                      <a class="btn btn-reset" href="">
+                                        Save
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="">
+                              <div class="row">
+                                <div class="col-12">
+                                  <p class="mb-3">Selected Wallet(s)</p>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Prepaid eTopUp</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp 2</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp 3</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0"> Postpaid eTopUp</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <p class="mb-3">Selected Payment Method(s)</p>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Select All</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Default</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Cash</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">DD</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Online</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Check</p>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="not-selected-yellow-btn bg-light mb-3">
+                                    <p class="mb-0">Others</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                  <label for="">Transfer Range</label>
+                                  <div class="row">
+                                    <div class="col-6 pr-0">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control" value="1" name="" id="">
+                                      </div>
+                                    </div>
+                                    <div class="col-6 pl-0">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control" value="10000" name="" id="">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                  <div class="form-group">
+                                    <label for="">Comission Period</label>
+                                    <input type="date" class="form-control" value="1" name="" id="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-6">
+                                  <div class="form-group">
+                                    <label for="">Time Slab</label>
+                                    <input type="datetime-local" class="form-control" value="1" name="" id="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                  <div class="mt-4">
+                                    <p class="mb-0">(e.g. 10:12-12:25, 14:30-16:22)</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="border border-light border-radius mt-3 p-3">
+                                <div class="card bg-light  p-4">
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <div class="text-right">
+                                        <a class="light-text mr-2" href="">
+                                          <i class="fal fa-copy"></i>
+                                        </a>
+                                        <a class="light-text" href="">
+                                          <i class="fal fa-trash-alt"></i>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <label for="">Transaction Amount Range</label>
+                                      <div class="row">
+                                        <div class="col-6 pr-0">
+                                          <div class="form-group">
+                                            <input type="text" class="form-control" value="1" name="" id="">
+                                          </div>
+                                        </div>
+                                        <div class="col-6 pl-0">
+                                          <div class="form-group">
+                                            <input type="text" class="form-control" value="10000" name="" id="">
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-12">
+                                      <label for="">Comission Rate</label>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button type="button" class="my-input-grp-txt">$</button>
+                                          <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            <i class="fal fa-angle-down"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Eurro</a>
+                                            <a class="dropdown-item" href="#">UAE</a>
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-12">
+                                      <label for="">Tax 1</label>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button type="button" class="my-input-grp-txt">$</button>
+                                          <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            <i class="fal fa-angle-down"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Eurro</a>
+                                            <a class="dropdown-item" href="#">UAE</a>
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-12">
+                                      <label for="">Tax 2</label>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button type="button" class="my-input-grp-txt">$</button>
+                                          <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            <i class="fal fa-angle-down"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Eurro</a>
+                                            <a class="dropdown-item" href="#">UAE</a>
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-12">
+                                      <label for="">Tax 3</label>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button type="button" class="my-input-grp-txt">$</button>
+                                          <button type="button" class="my-input-grp-btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                            <i class="fal fa-angle-down"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Eurro</a>
+                                            <a class="dropdown-item" href="#">UAE</a>
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" value="20" aria-label="Text input with segmented dropdown button">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 mb-3 mt-4">
+                                      <a class="font-weight-bold" href="">
+                                        <u>Define cumulative additional commission(CAC)</u> <i class="fal fa-angle-down"></i>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <div class="text-right">
+                                        <a class="btn btn-reset bg-white" href="">
+                                          Reset
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-12">
+                                    <a class="text-red font-weight-bold" href="">
+                                      <i class="fal fa-plus-circle fa-lg"></i> Add Range
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <div class="text-right">
+                                    <a class="btn btn-reset mr-2" href="">
+                                      Copy
+                                    </a>
+                                    <a class="btn btn-reset mr-2" href="">
+                                      Reset
+                                    </a>
+                                    <a class="btn" href="">
+                                      Add
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <p class="mb-0">Gift Recharge</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium provident fugit id inventore explicabo dolor quaerat quae iusto quisquam voluptate, magnam voluptatem quidem consectetur commodi reiciendis dolore sapiente ut doloremque!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <p class="mb-0">Postpaid Bill</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                              <p class="mb-0">Internet</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse4" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                              <p class="mb-0">VAS recharge</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse5" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                              <p class="mb-0">Fixed Line</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse6" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                              <p class="mb-0">electronic Recharge</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse7" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                              <p class="mb-0">Multiple Voucher distribution</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse8" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                              <p class="mb-0">Digital Voucher Distribution</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse9" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                              <p class="mb-0">Voucher recharge</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse10" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                              <p class="mb-0">International recharge</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse11" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="collapse-btn px-3 py-4 d-flex justify-content-between btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                              <p class="mb-0">Enquiry Request</p>
+                              <i class="fal fa-angle-down"></i>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse12" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum velit facere omnis quos dolore a doloribus voluptates perferendis reprehenderit alias, aliquam quo harum, aliquid sit exercitationem. Voluptas adipisci ratione dolore.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="list-other" role="tabpanel" aria-labelledby="list-other-list">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="text-right">
+              <a class="btn btn-reset" href="">Save</a>
+            <a class="btn btn-reset" href="review-comission-profile.html">Review</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer" style="position: absolute; bottom: 0; width: -webkit-fill-available">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="credits ml-auto">
+              <span class="copyright">
+                © 2020,Powered by Company. All Rights reserved.
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+  <script src="assets/js/jquery.nice-select.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Pretups</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+    name="viewport" />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="assets/css/all.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css" />
+  <link href="assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/css/nice-select.css" rel="stylesheet" />
+    <!-- Added these scripts -->  
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(function () {
+      $("#sidebar").load("sidebar.html");
+    });
+  </script>
+  <!-- Added these scripts -->
+</head>
+
+<body class="">
+  <div class="wrapper">
+     <!-- Added this div -->
+     <div id="sidebar">
+    </div>
+  <!-- Added this div -->
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav ">
+              <li class="nav-item btn-rotate dropdown">
+                <a href="#help" class="nav-link help">Help</a>
+              </li>
+              <li class="nav-item btn-rotate dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Network Admin
+                  <div class="mx-3 user-logo">N</div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row comission">
+            <div class="col-lg-6 col-md-12 col-sm-12 order-2 order-lg-1 order-md-2">
+              <div class="d-flex mb-lg-0 mb-2">
+                <a class="text-dark" href="channel-to-subscriber.html">Channel to Subscribe</a>
+                <span class="mx-2"><i class="text-secondary fas fa-chevron-right"></i></span>
+                <h4>Calculate Transfer Value</h4>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 order-1 ordedr-lg-2 order-md-1 pr-0 content-top-nav">
+              <ul class="top-nav-ul text-right mr-0">
+                <li class="t-line">Network: <span>Bangalore</span></li>
+                <li>23/08/2022, 12:03:00 AM</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card p-4">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="">
+                      <h4 class="mb-4">Channel to Subscribe</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Domain</label>
+                      <select class="nice-select w-100" name="">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Category</label>
+                      <select class="nice-select w-100" name="">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Grade Name</label>
+                      <select class="nice-select w-100" name="">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Gateway code</label>
+                      <select class="nice-select w-100" name="">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Service Type</label>
+                      <select class="nice-select w-100" name="">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Sub-Service</label>
+                      <select class="nice-select w-100" name="">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Receiver Type</label>
+                      <select class="nice-select w-100" name="">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Receiver Service Class</label>
+                      <select class="nice-select w-100" name="">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Validity Date</label>
+                      <input type="date" class="form-control" id="" name="" placeholder="" value="">
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Applicable Form</label>
+                      <input type="date" class="form-control" id="" name="" placeholder="" value="">
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="form-group">
+                      <label class="text-dark" for="">Amount</label>
+                      <input type="text" class="form-control" id="" name="" placeholder="" value="">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="text-right">
+                      <a class="btn btn-reset mr-2" href="">Reset </a>
+                      <a class="btn" href="channel-to-subscribe-calculate-ttansfer-value-next.html">Calculate </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card p-4">
+                <div class="row">
+                  <div class="col-12 mb-4">
+                    <p class="small light-text">New Validity Date</p>
+                    <div class="p-3 bg-light border-radius" style="width: fit-content;">
+                      <p class="mb-0">
+                        Nov 26, 2019 19:40
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="">
+                      <p>Reciver transfer Value</p>
+                      <div class="bg-light p-4">
+                        <div class="row">
+                          <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="">
+                              <p class="small light-text">Tax 1</p>
+                              <p class="mb-0">0</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="">
+                              <p class="small light-text">Tax 2</p>
+                              <p class="mb-0">0</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="">
+                              <p class="small light-text">Transfer value</p>
+                              <p class="mb-0">9.18</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="">
+                              <p class="small light-text">Processing Value</p>
+                              <p class="mb-0">1</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="card p-4 bg-light">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="">
+                        <p class="small light-text text-uppercase mb-1">Card Group Set Name</p>
+                        <p class="">
+                          P2matrix
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="">
+                        <p class="small light-text text-uppercase mb-1">Card Group Set Type</p>
+                        <p class="">
+                          Normal
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="">
+                        <p class="small light-text text-uppercase mb-1">Service Type</p>
+                        <p class="">
+                          PC2P Data Transfer
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="">
+                        <p class="small light-text text-uppercase mb-1">Sub Service</p>
+                        <p class="">
+                          CDATA
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="">
+                        <p class="small light-text text-uppercase mb-1">Serial Number</p>
+                        <p class="">
+                          1
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="">
+                        <p class="small light-text text-uppercase mb-1">Card Group Code</p>
+                        <p class="">
+                          qwerty123
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="">
+                        <p class="small light-text text-uppercase mb-1">transfer Range</p>
+                        <p class="">
+                          1-100
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="">
+                        <p class="small light-text text-uppercase mb-1">COS required</p>
+                        <p class="">
+                          Yes
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="">
+                      <p class="small light-text text-uppercase mb-1">Grace Period (Days)</p>
+                      <p>20</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="">
+                      <p class="small light-text text-uppercase mb-1">Multiple of</p>
+                      <p>1</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="">
+                      <p class="small light-text text-uppercase mb-1">Benifit Conversion Factor</p>
+                      <p>1</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="">
+                      <p class="small light-text text-uppercase mb-1">IN Promo</p>
+                      <p>1</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="mb-1">Taxex</p>
+                    <table class="table table-bordered border-radius">
+                      <thead class="thead-light">
+                        <tr>
+                          <th class="light-text small" scope="col">Tax 1</th>
+                          <th class="light-text small" scope="col">Tax 2</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border-0">10%</td>
+                          <td class="border-0">10%</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p class="mb-1">Processing Fee</p>
+                    <table class="table table-bordered border-radius">
+                      <thead class="thead-light">
+                        <tr>
+                          <th class="light-text small" scope="col">Rate</th>
+                          <th class="light-text small" scope="col">Min. Amount</th>
+                          <th class="light-text small" scope="col">Max. Amount</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border-0">10%</td>
+                          <td class="border-0">1</td>
+                          <td class="border-0">100</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p class="mb-1">Validity</p>
+                    <table class="table table-bordered border-radius">
+                      <thead class="thead-light">
+                        <tr>
+                          <th class="light-text small" scope="col">Type</th>
+                          <th class="light-text small" scope="col">Days</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border-0">Highes</td>
+                          <td class="border-0">30</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-12">
+                    <h4 class="mb-3">Bonus Benifits</h4>
+                  </div>
+                  <div class="col-12">
+                    <p class="text-uppercase light-text small mb-2">Bounus Benifit default validity</p>
+                    <p>30</p>
+                  </div>
+                  <div class="col-lg-8 col-md-12 col-sm-12">
+                    <p class="mb-1">Taxex</p>
+                    <table class="table table-bordered border-radius">
+                      <thead class="thead-light">
+                        <tr>
+                          <th class="light-text small" scope="col">Bonus Bundle Name</th>
+                          <th class="light-text small" scope="col">Value</th>
+                          <th class="light-text small" scope="col">Validity (Days)</th>
+                          <th class="light-text small" scope="col">Benifit Conversion Factor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border-0">Minutes</td>
+                          <td class="border-0">20%</td>
+                          <td class="border-0">30</td>
+                          <td class="border-0">1</td>
+                        </tr>
+                        <tr>
+                          <td class="border-0">Data</td>
+                          <td class="border-0">20%</td>
+                          <td class="border-0">30</td>
+                          <td class="border-0">1</td>
+                        </tr>
+                        <tr>
+                          <td class="border-0">SMS</td>
+                          <td class="border-0">20%</td>
+                          <td class="border-0">30</td>
+                          <td class="border-0">1</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <footer class="footer" style="position: absolute; bottom: 0; width: -webkit-fill-available">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="credits ml-auto">
+              <span class="copyright">
+                © 2020,Powered by Company. All Rights reserved.
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+  <script src="assets/js/jquery.nice-select.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

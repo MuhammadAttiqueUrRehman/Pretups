@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Pretups</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+    name="viewport" />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="assets/css/all.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css" />
+  <link href="assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/css/nice-select.css" rel="stylesheet" />
+    <!-- Added these scripts -->  
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(function () {
+      $("#sidebar").load("sidebar.html");
+    });
+  </script>
+  <!-- Added these scripts -->
+</head>
+
+<body class="">
+  <div class="wrapper">
+     <!-- Added this div -->
+     <div id="sidebar">
+    </div>
+  <!-- Added this div -->
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item btn-rotate dropdown">
+                <a href="#help" class="nav-link help">Help</a>
+              </li>
+              <li class="nav-item btn-rotate dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Network Admin
+                  <div class="mx-3 user-logo">N</div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="row comission">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="d-flex mb-lg-0 mb-2">
+                  <a class="text-dark" href="transfer-control-profile.html">Transfer Control Profile</a>
+                  <span class="mx-2"><i class="text-secondary fas fa-chevron-right"></i></span>
+                  <h4>Add</h4>
+                </div>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2">
+                <div class="content-top-nav text-lg-right ml-auto">
+                  <ul class="top-nav-ul">
+                    <li class="t-line">Network: <span>Bangalore</span></li>
+                    <li>23/08/2022, 12:03:00 AM</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card p-4 mb-3">
+              <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="">
+                    <p class="small light-text mb-1 text-uppercase">Domain</p>
+                    <p class="mb-0">Distributor</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="">
+                    <p class="small light-text mb-1 text-uppercase">Category</p>
+                    <p class="mb-0">Super Distributor</p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                  <div class="form-groug mb-3">
+                    <label for="">Profile Name</label>
+                    <input class="form-control" id="" name="" type="text">
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                  <div class="form-groug mb-3">
+                    <label for="">Short Name</label>
+                    <input class="form-control" id="" name="" type="text">
+                  </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                  <div class="form-groug mb-3">
+                    <label for="">Description</label>
+                    <input class="form-control" id="" name="" type="text">
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                  <div class="form-groug mb-3">
+                    <label for="">Status</label>
+                    <select id="inputState" class="nice-select w-100">
+                      <option selected>Active</option>
+                      <option>One</option>
+                      <option>Two</option>
+                      <option>Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="form-groug mb-3">
+                    <label class="d-block" for="">Default Profile</label>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label pl-2 mr-3" for="inlineRadio1">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label pl-2" for="inlineRadio2">No</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card p-4 mb-3">
+              <div class="row">
+                <div class="col-12">
+                  <h4 class="mb-3">Balance Preferences</h4>
+                </div>
+                <div class="col-12">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class="thead-light">
+                        <tr>
+                          <th class="text-center" scope="col">Product Code</th>
+                          <th class="text-center" scope="col">Minimum Resiual balance</th>
+                          <th class="text-center" scope="col">Maximum Balance</th>
+                          <th class="text-center" class="text-center" scope="col" colspan="2">Per Channel to subscribe transection amount
+                            <div class="d-flex justify-content-between">
+                              <p class="text-center">Minimum</p>
+                              <p class="text-center">Maximum</p>
+                            </div>
+                          </th>
+                          <th class="text-center" scope="col">Alerting Balance</th>
+                          <th class="text-center" scope="col">Allowed Max. Percentage (1-100)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border">Perpaid eTopUp</td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="0" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="010101100" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="$0" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="$100100010001" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="$0" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="2%" id="">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="border">Postpaid eTopUp</td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="0" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="010101100" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="$0" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="$100100010001" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="$0" id="">
+                          </td>
+                          <td class="border">
+                            <input type="text" class="form-control" name="" value="2%" id="">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card p-4 mb-3">
+              <div class="row">
+                <div class="col-12">
+                  <h4 class="mb-3">Transfer control preferences</h4>
+                </div>
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="list-group" style="flex-direction: initial;" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action transfer-control-preference-filter-link active" style="border-bottom-left-radius: 0.25rem; border-top-right-radius: 0px;" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Daily</a>
+                        <a class="list-group-item list-group-item-action transfer-control-preference-filter-link" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Weekly</a>
+                        <a class="list-group-item list-group-item-action transfer-control-preference-filter-link" style="border-bottom-left-radius: 0rem; border-top-right-radius: 0.25rem;" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Monthly</a>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                          <div class="table-responsive mt-4">
+                            <table class="table m-0 w-100">
+                              <thead class="thead-light">
+                                <tr>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col"></th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Count</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Count</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Value</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Value</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td class="border border-light text-center">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                          <div class="table-responsive mt-4">
+                            <table class="table m-0 w-100">
+                              <thead class="thead-light">
+                                <tr>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col"></th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Count</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Count</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Value</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Value</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                          <div class="table-responsive mt-4">
+                            <table class="table m-0 w-100">
+                              <thead class="thead-light">
+                                <tr>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col"></th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Count</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Count</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Value</th>
+                                  <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Value</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="border border-light">Channel Transfer in</td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                  <td class="border border-light">
+                                    <input type="text" class="form-control" value="1000" name="" id="">
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="text-right">
+                    <a class="btn btn-reset mr-2" href="">Copy</a>
+                    <a class="btn btn-reset" href="">Paste</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="text-right">
+                  <a class="btn btn-reset mr-2" href="">Cancle</a>
+                  <button type="button" class="btn text-uppercase" data-toggle="modal" data-target="#exampleModalCenter">
+                    Save
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" style="max-width: 1200px;"  role="document">
+                      <div class="modal-content p-2">
+                        <div class="border p-2" style="border-radius: 10px;">
+                          <div class="modal-header justify-content-between pb-0 border-bottom-0 d-block">
+                            <h4 class="text-left" style="font-size: 16px; font-weight: bold; color: #000;">Review & Confirm</i></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 0px;  margin-right: -10px;">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <hr>
+                          <div class="">
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="border border-radius p-4 mb-3">
+                                  <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <div class="">
+                                        <p class="light-text small text-uppercase text-left mb-1">Domain</p>
+                                        <p class="text-left">Distributor</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <div class="">
+                                        <p class="light-text small text-uppercase text-left mb-1">Category</p>
+                                        <p class="text-left">Super Distributor</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <div class="">
+                                        <p class="light-text small text-uppercase text-left mb-1">Profile Name</p>
+                                        <p class="text-left">Dist2</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <div class="">
+                                        <p class="light-text small text-uppercase text-left mb-1">Short Name</p>
+                                        <p class="text-left">Dist2</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <div class="">
+                                        <p class="light-text small text-uppercase text-left mb-1">Description</p>
+                                        <p class="text-left">Automated Transfer</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <div class="">
+                                        <p class="light-text small text-uppercase text-left mb-1">Status</p>
+                                        <p class="text-left">Active</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                      <div class="">
+                                        <p class="light-text small text-uppercase text-left mb-1">Default Profile</p>
+                                        <p class="text-left">No</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="border border-radius p-4 mb-3">
+                                  <h4 class="mb-3 text-left">Balance Prefrence</h4>
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <div class="table-responsive">
+                                        <table class="table m-0 w-100">
+                                          <thead class="thead-light">
+                                            <tr>
+                                              <th class="text-center" scope="col">Product Code</th>
+                                              <th class="text-center" scope="col">Minimum Resiual balance</th>
+                                              <th class="text-center" scope="col">Maximum Balance</th>
+                                              <th class="text-center" class="text-center" scope="col" colspan="2">Per Channel to subscribe transection amount
+                                                <div class="d-flex justify-content-between">
+                                                  <p class="text-center">Minimum</p>
+                                                  <p class="text-center">Maximum</p>
+                                                </div>
+                                              </th>
+                                              <th class="text-center" scope="col">Alerting Balance</th>
+                                              <th class="text-center" scope="col">Allowed Max. Percentage (1-100)</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td class="border">Perpaid eTopUp</td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="0" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="010101100" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="$0" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="$100100010001" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="$0" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="2%" id="">
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border">Postpaid eTopUp</td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="0" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="010101100" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="$0" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="$100100010001" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="$0" id="">
+                                              </td>
+                                              <td class="border">
+                                                <input type="text" class="form-control" name="" value="2%" id="">
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="border border-radius p-4 mb-3">
+                                  <h4 class="mb-3 text-left">Transfer Control Prefrence</h4>
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <div class="table-responsive mb-3">
+                                        <table class="table m-0 w-100">
+                                          <thead class="thead-light">
+                                            <tr>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Daily</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Count</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Count</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Value</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Value</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                      <div class="table-responsive mb-3">
+                                        <table class="table m-0 w-100">
+                                          <thead class="thead-light">
+                                            <tr>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Weekly</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Count</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Count</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Value</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Value</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                      <div class="table-responsive mb-3">
+                                        <table class="table m-0 w-100">
+                                          <thead class="thead-light">
+                                            <tr>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Monthly</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Count</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Count</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Value</th>
+                                              <th class="border text-capitalize font-weight-normal text-center" scope="col">Alerting Value</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td class="border border-light text-center">Channel Transfer in</td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                              <td class="border border-light">
+                                                <p class="text-center">1000</p>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer justify-content-center border-top-0 pt-0">
+                            <button type="button" class="btn text-center" style="padding-left: 50px; padding-right: 50px;" data-dismiss="modal">Confirm</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer" style="position: absolute; bottom: 0; width: -webkit-fill-available">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="credits ml-auto">
+              <span class="copyright">
+                © 2020,Powered by Company. All Rights reserved.
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+  <script src="assets/js/jquery.nice-select.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

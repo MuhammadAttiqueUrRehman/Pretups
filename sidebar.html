@@ -1,0 +1,316 @@
+<style>
+.sidebar .nav li > a, .off-canvas-sidebar .nav li > a {
+  text-transform: none;
+}
+.sidebar .nav, .off-canvas-sidebar .nav {
+  margin-top: 20px;
+  display: block;
+  height: 100%;
+  overflow-y: scroll;
+}
+</style>
+<div class="sidebar" data-color="white" data-active-color="danger">
+    <div class="logo">
+      <!-- <a href="https://www.creative-tim.com" class="simple-text logo-mini">
+          <div class="logo-image-small">
+          <img src="assets/img/logo-small.png">
+        </div>
+          <p>CT</p>
+        </a> -->
+      <a href="#home" class="simple-text logo-normal mx-3">
+        PreTUPS <sup>TM</sup>
+        <!-- <div class="logo-image-big">
+          <img src=".assets/img/logo-big.png">
+        </div> -->
+      </a>
+    </div>
+    <div class="sidebar-wrapper">
+      <ul class="nav sidenav-items">
+        <li class="active">
+          <a href="index.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Home</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#profile" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Profile Management
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="profile">
+            <li>
+              <a href="comission-profile.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Commission Profile
+                
+              </a>
+            </li>
+            <li>
+              <a href="transfer-control-profile.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Transfer
+                Control Profile</a>
+            </li>
+            <li>
+              <a href="bulk-category-profile.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Bulk
+                Category-wise Default
+                Profile</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="operator-user.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Operator User</p>
+          </a>
+        </li>
+        <li>
+          <a href="channel-user.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Channel User</p>
+          </a>
+        </li>
+        <li>
+          <a href="profile-management.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Profile Management Page</p>
+          </a>
+        </li>
+        <li>
+          <a href="#approval1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Approval Level 1
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="approval1">
+            <li>
+              <a href="approval-operator-user.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Operator User
+              </a>
+            </li>
+            <li>
+              <a href="network-stock.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Network Stock</a>
+            </li>
+            <li>
+              <a href="loyalty-profile.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Loyalty
+                Profile</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#approval2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Approval Level 2
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="approval2">
+            <li>
+              <a href="network-stock-approval-lvl-2.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Network Stock
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#cardGroup" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Card Group
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="cardGroup">
+            <li>
+              <a href="channel-to-subscriber.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Channel To Subscriber
+              </a>
+            </li>
+            <li>
+              <a href="peer-to-peer.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Peer To Peer
+              </a>
+            </li>
+            <li>
+              <a href="voucher.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Voucher
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#transfer" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Transfer Rules
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="transfer">
+            <li>
+              <a href="transfer-rule-channel-to-subscriber.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Channel To Subscriber
+              </a>
+            </li>
+            <li>
+              <a href="transfer-rule-peer-to-peer.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Peer To Peer</a>
+            </li>
+            <li>
+              <a href="transfer-rule-channel-to-channel.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Channel To
+                Channel</a>
+            </li>
+            <li>
+              <a href="transfer-rule-operator-to-channel.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Operator To
+                Channel</a>
+            </li>
+            <li>
+              <a href="#promotional" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Promotional</a>
+            </li>
+            <li>
+              <a href="#peer-to-peer-promotion" class="sidebar-dropdowns"><i class="fal fa-circle"></i> Peer To Peer
+                Promotion</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#networkStock" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Network Stock
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="networkStock">
+            <li>
+              <a href="Initiate-stock.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Initiate Stock
+              </a>
+            </li>
+            <li>
+              <a href="#view-stock-transaction" class="sidebar-dropdowns"><i class="fal fa-circle"></i>View stock
+                transaction
+              </a>
+            </li>
+            <li>
+              <a href="#view-current-stock" class="sidebar-dropdowns"><i class="fal fa-circle"></i>View current stock
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="interface-mapping.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Interface Mapping</p>
+          </a>
+        </li>
+        <li>
+          <a href="#callManagement" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Call ID Management
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="callManagement">
+            <li>
+              <a href="cell-group.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Cell Group
+              </a>
+            </li>
+            <li>
+              <a href="cell-id.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i>Cell ID
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="message-management.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Message management</p>
+          </a>
+        </li>
+        <li>
+          <a href="cos-management.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>COS management</p>
+          </a>
+        </li>
+        <li>
+          <a href="service-type-prduct-mapping.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Service type product mapping</p>
+          </a>
+        </li>
+        <li>
+          <a href="network-product-mapping.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Network product mapping</p>
+          </a>
+        </li>
+        <li>
+          <a href="bonus-bundle-management.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Bonus bundle mapping</p>
+          </a>
+        </li>
+        <li>
+          <a href="stk-services.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>STK services</p>
+          </a>
+        </li>
+        <li>
+          <a href="#serviceGroupManagement" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Service Group Management
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="serviceGroupManagement">
+            <li>
+              <a href="manage-service-group.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Manage service group
+              </a>
+            </li>
+            <li>
+              <a href="association-reassociation.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i>Association/
+                Reassociation
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="geographical-domain.html">
+            <i class="fal fa-home side-icon"></i>
+            <p>Geographical Domain</p>
+          </a>
+        </li>
+        <li>
+          <a href="#loyalty-management" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Loyalty Management
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="loyalty-management">
+            <li>
+              <a href="loyalty-profile-management.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Profile management
+              </a>
+            </li>
+            <li>
+              <a href="loyalty-administration.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i>Loyalty
+                administration
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#preferences" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+              class="fal fa-home side-icon"></i>
+            Preferences
+          </a>
+          <ul class="sidenav-submenu collapse list-unstyled" id="preferences">
+            <li>
+              <a href="network-prefrence.html" class="sidebar-dropdowns">
+                <i class="fal fa-circle"></i> Network preferences
+              </a>
+            </li>
+            <li>
+              <a href="service-class-prefrence.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i>Service
+                class preferences
+              </a>
+            </li>
+            <li>
+              <a href="control-prefrence.html" class="sidebar-dropdowns"><i class="fal fa-circle"></i>Control
+                preferences
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="sidenav-bottom-area">
+        <a href="#" class="btn"><i class="far fa-question-circle mr-2"></i>SELF HELP</a>
+        <p class="text-white">PreTUPS 715.01.01.01</p>
+      </div>
+    </div>
+  </div>
